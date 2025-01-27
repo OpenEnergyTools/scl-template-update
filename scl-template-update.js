@@ -754,9 +754,7 @@ class ud extends Id{}ud.styles=[cd];let Ad="";class Ed extends(Nn(ln)){construct
     </md-dialog>`}renderFab(){return We`<md-fab
       label="Update Logical Node Type"
       @click=${()=>this.updateTemplate()}
-    >
-      <md-icon slot="icon">edit</md-icon>
-    </md-fab>`}renderLNodeTypeSelector(){return We`<md-filled-select @change=${()=>this.onLNodeTypeSelect()}>
+    ></md-fab>`}renderLNodeTypeSelector(){return We`<md-filled-select @change=${()=>this.onLNodeTypeSelect()}>
       ${Array.from(this.lNodeTypes).map((e=>We`<md-select-option value=${e.getAttribute("id")}
             ><div slot="headline">
               ${e.getAttribute("id")}
